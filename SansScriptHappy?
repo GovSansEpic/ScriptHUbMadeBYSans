@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("SunHub", "Synapse")
+local Window = Library.CreateLib("SunHub", "GrapeTheme")
 
 --Da hood tab
 local Tab = Window:NewTab("Da hood")
@@ -32,3 +32,4 @@ end)
 Section:NewButton("Combat Warriors Script [NossLock | OP]", "Cool Script :D", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Nosssa/NossLock/main/WinterTime"))()
 end)
+--cw tab
