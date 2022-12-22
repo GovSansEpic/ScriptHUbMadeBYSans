@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("SunHub", "GrapeTheme")
+local Window = Library.CreateLib("MoonHub", "GrapeTheme")
 
 --Da hood tab
 local Tab = Window:NewTab("Da hood")
