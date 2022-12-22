@@ -1,42 +1,6 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("SunHub", "Synapse")
-
---Da hood tab
-local Tab = Window:NewTab("Da hood")
-local Section = Tab:NewSection("Da Hood Scripts Down Here :b")
-Section:NewButton("Da Hood Script", "Cool Script :D", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
-end)
---Da hood tab
-
---mm2 tab
-local Tab = Window:NewTab("mm2")
-
-local Section = Tab:NewSection("mm2 scripts, have fun")
-Section:NewButton("mm2 HUB More,", "Cool Script :D", function()
-    getgenv().mainKey = "nil" local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://api.eclipsehub.xyz/auth"c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
-end)
---mm2 tab
-
---cw tab
-local Tab = Window:NewTab("Combat Warriors")
-local Section = Tab:NewSection("Combat Warriors Scripts And Hub Supported With")
-Section:NewButton("Combat Warriors Script [novahub | OP]", "Cool Script :D", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/master/novahub"))()
-end)
-Section:NewButton("Combat Warriors Script [projecthook | OP]", "Cool Script :D", function()
-    loadstring(game:HttpGet("https://projecthook.xyz/scripts/free.lua"))()
-end)
-Section:NewButton("Combat Warriors Script [Name OF IT dont know but its a script]", "Cool Script :D", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/frkfx/Combat-Warriors/main/Script"))();
-end)
-Section:NewButton("Combat Warriors Script [NossLock | OP]", "Cool Script :D", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nosssa/NossLock/main/WinterTime"))()
-end)
---cw tab
-
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("MoonHub", "GrapeTheme")
+--Mine Thing
 
 --Da hood tab
 local Tab = Window:NewTab("Da hood")
