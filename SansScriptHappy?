@@ -1,24 +1,20 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("MoonHub", "GrapeTheme")
---Mine Thing
+local Window = Library.CreateLib("SunHub", "GrapeTheme")
 
 --Da hood tab
 local Tab = Window:NewTab("Da hood")
 local Section = Tab:NewSection("Da Hood Scripts Down Here :b")
-Section:NewButton("Da Hood Script", "Cool Script :D", function()
+Section:NewButton("Da Hood Script [Ray X]", "Cool Script :D", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
 end)
 --Da hood tab
 
 --mm2 tab
 local Tab = Window:NewTab("mm2")
+
 local Section = Tab:NewSection("mm2 scripts, have fun")
-Section:NewButton("mm2 HUB1 More,", "Cool Script :D", function()
+Section:NewButton("mm2 HUB More,", "Cool Script :D", function()
     getgenv().mainKey = "nil" local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://api.eclipsehub.xyz/auth"c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
-end)
-Section:NewLabel("More Scripts Hub")
-Section:NewButton("mm2 HUB2 More,", "Cool Script :D", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Doggo-cryto/EclipseMM2/master/Script", true))()
 end)
 --mm2 tab
 
@@ -47,3 +43,18 @@ Section:NewButton("infiniteyield", "Cool Script :D", function()
 end)
 --someshit
 
+--Settings
+local Tab = Window:NewTab("Settings")
+local Section = Tab:NewSection("Settings Dont Save")
+Section:NewKeybind("Hide Gui", "Hide UI", Enum.KeyCode.F, function()
+	Library:ToggleUI()
+end)
+--Settings
+
+
+--Credits
+local Tab = Window:NewTab("Credits")
+local Section = Tab:NewSection("Developer Of Hub : Sans#0009 Usermame roblox : Gov_Sans")
+local Section = Tab:NewSection("Owner/Idea Of Hub : minty#3528 Roblox Username : CreamyCreamedLol")
+local Section = Tab:NewSection("Join Discord : https://discord.gg/kghQtJnJzJ")
+--Credits
