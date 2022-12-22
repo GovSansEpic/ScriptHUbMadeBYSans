@@ -35,6 +35,14 @@ Section:NewButton("Combat Warriors Script [NossLock | OP]", "Cool Script :D", fu
 end)
 --cw tab
 
+--BloxFruit
+local Tab = Window:NewTab("BloxFruit")
+local Section = Tab:NewSection("Here Is All Blox Fruit Script We Got")
+Section:NewButton("Mukuro Hub", "Cool Script SOmthing", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader"))()
+end)
+--BloxFruit
+
 --someshit
 local Tab = Window:NewTab("usefull scripts")
 local Section = Tab:NewSection("Usefull scripts")
