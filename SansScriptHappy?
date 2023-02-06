@@ -14,6 +14,9 @@ local Section = Tab:NewSection("Da Hood Scripts Down Here :b")
 Section:NewButton("Da Hood Script [Ray X]", "Cool Script :D", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
 end)
+Section:NewButton("Da Hood Script [Pluto]", "Cool Script :D", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Scrvpter/Pluto/Lua/Loader.Lua', true))()
+end)
 --Da hood tab
 
 --mm2 tab
