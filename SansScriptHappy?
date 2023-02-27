@@ -62,8 +62,8 @@ end)
 
 local Tab = Window:NewTab("Doors OP")
 local Section = Tab:NewSection("Doors Op")
-Section:NewButton("HUb", "Doors OP With A Hub", function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
+Section:NewButton("Doors OP", "Doors OP", function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/poopdoors_edited/main/poopdoors_edited.lua"),true))()
 end)
 
 --someshit
@@ -71,6 +71,9 @@ local Tab = Window:NewTab("usefull scripts")
 local Section = Tab:NewSection("Usefull scripts")
 Section:NewButton("infiniteyield", "Cool Script :D", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+Section:NewButton("HubUseFul", "Cool Script :D", function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/poopdoors_edited/main/poopdoors_edited.lua"),true))()
 end)
 --someshit
 
