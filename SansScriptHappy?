@@ -60,6 +60,11 @@ Section:NewButton("Wally HUb FF Script", "Funky Friday script", function()
 end)
 --Funky Friday
 
+local Tab = Window:NewTab("Doors OP")
+local Section = Tab:NewSection("Doors Op")
+Section:NewButton("HUb", "Doors OP With A Hub", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
+end)
 
 --someshit
 local Tab = Window:NewTab("usefull scripts")
