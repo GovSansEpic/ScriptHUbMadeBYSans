@@ -73,7 +73,7 @@ Section:NewButton("infiniteyield", "Cool Script :D", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 Section:NewButton("HubUseFul", "Cool Script :D", function()
-    loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/poopdoors_edited/main/poopdoors_edited.lua"),true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
 end)
 --someshit
 
